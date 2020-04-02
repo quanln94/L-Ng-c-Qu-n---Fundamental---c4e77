@@ -1,0 +1,118 @@
+1.
+// const a = Number(prompt("Input a random number: "));
+// let s = 1;
+// if (a < 0) {
+//     alert("Invalid input");
+// } else {
+//     for (let b = 1; b <= a; b++){
+//         s = s * b;
+// }
+//     alert(`The factorial of ${a} is ${s}`);
+// }
+
+
+2.
+// const name = prompt("Input your name: ");
+// const age = Number(prompt("Input your age: "));
+// if (age < 18){
+//     alert(`${name} do not allow to access this website`);
+// } else {
+//     const answer = prompt(`Do ${name} want to access this website? (Yes/No)`);
+//     if ( answer == "Yes") {
+//         alert(`${name} have accessed this website`);
+//     } else if ( answer == "No"){
+//         alert(`${name} have left this website`);
+//     } else {
+//         alert("Wrong answer. Please input again");
+//     }
+// }
+
+
+3.
+// const username = prompt("Input your username");
+// const password = prompt("Input your password");
+// let username2 = "atm.8";
+// let password2 = "lengocquan16";
+// if (username === username2 && password === password2){
+//     alert(`Access succeeded`);
+// } else if (username !== username2 && password === password2){
+//     alert(`Username incorrect`);
+// } else if (username === username2 && password !== password2){
+//     alert(`Password incorrect`);
+// } else {
+//     alert(`Access denied`);
+// }
+
+
+4.
+// let name = prompt("Input your name");
+// let month = Number(prompt("Input your month birthday"));
+// switch(month){
+//     case 1:
+//     case 2:
+//     case 3:
+//         alert(`${name} was born in Spring`);
+//         break;
+//     case 4:
+//     case 5:
+//     case 6:
+//         alert(`${name} was born in Summer`);
+//         break;
+//     case 7:
+//     case 8:
+//     case 9:
+//         alert(`${name} was born in Autumn`);
+//         break;
+//     case 10:
+//     case 11:
+//     case 12:
+//         alert(`${name} was born in Winter`);
+//         break;
+//     default:
+//         alert(`Value's not available`);
+//         break;
+// }
+
+
+5.
+// while (true) {
+//         let a = Number(prompt("Input a"));
+//         let b = Number(prompt("Input b"));
+//         let c = Number(prompt("Input c"));
+//         if (a != 0){
+//             let delta = b*b - 4*a*c
+//             if (delta < 0){
+//                 alert(`The quadratic formula has no root`);
+//             } else if ( delta == 0) {
+//                 let x = -b/(a*2);
+//                 alert(` The root of quadratic formula is ${x}`);
+//             } else {
+//                 let x1 = (-b+Math.sqrt(delta))/(a*2);
+//                 let x2 = (-b-Math.sqrt(delta))/(a*2);
+//                 alert(` 2 root of quadratic formula is: 
+//                     x1 = ${x1}
+//                     x2 = ${x2}`);
+//             }
+//         } else {alert(`Input again`)}
+//         let p = prompt("Do you want to continue?(Yes/No)")
+//         if (p == "No"){
+//             break;
+//         }
+//      }
+
+
+6.
+// while (true){
+//     let string = prompt("Input a random string");
+//     let n = "";
+//     let i = string.length - 1;
+//     while (i >= 0) {
+//         n = n + string[i];
+//         i = i - 1;
+//     }
+//     alert(n);
+//     let p = prompt("Do you want to continue reversing a string?(Yes/No)");
+//     if (p == "No") {
+//         break
+//     }
+// }
