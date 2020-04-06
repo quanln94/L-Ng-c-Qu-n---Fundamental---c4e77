@@ -1,0 +1,119 @@
+1.
+// let tong1 = 0;
+// let tong2 = 0;
+// const n = Number(prompt("Nhập vào số bất kỳ: "))
+// for (let i = 1; i <= n; i++){
+//     if (i %2 == 0){
+//         tong1 = tong1 + i;
+//     } else { tong2 = tong2 + i};
+// }
+// alert(`
+// Tổng các số chẵn từ 1 đến ${n} là: ${tong1}
+// Tổng các số lẻ từ 1 đến ${n} là ${tong2}
+// `);
+
+
+2.
+// const n = Number(prompt("nhập vào số bất kỳ lớn hơn 1: "));
+// let demsouoc = 0;
+// for (let i = 1; i <= n; i ++){
+//     if (n % i == 0){
+//         demsouoc ++;
+//     }
+// }
+// if (demsouoc == 2){
+//     alert (`${n} là số nguyên tố`)
+// } else {alert(` ${n} không phải là số nguyên tố`)}
+
+
+3.
+// const n = Number(prompt("nhập vào số bất kỳ lớn hơn 1: "));
+// let string = "";
+// for (let i = 2; i <= n; i++){
+//     let demsouoc = 0;
+//     for(let j = 1; j <=i; j++){
+//         if( i % j == 0){
+//             demsouoc ++;
+//         }  
+//     }
+//     if (demsouoc == 2){
+//         string = string + " " + i;
+        
+//     }
+// }
+// alert(string)
+
+
+4.
+// const N = Number(prompt("nhập vào số N: "));
+// let x = 1;
+// let y = 1;
+// let z;
+// for (let i = 3; i <= N; i++){
+//     z = x + y;
+//     x = y;
+//     y = z;
+// }
+// alert(` Phần tử thứ ${N} của dãy Fibonacci là ${z} `);
+
+5.
+// let Tong = 0;
+// while (true){
+//     const n = Number(prompt("Nhập vào 1 số bất kỳ"));
+//     if  (n >= 0){
+//         Tong = Tong + n;
+//     } else {
+//         alert(` Tổng các số vừa nhập là ${Tong} `);
+//         break;
+        
+//     }
+// }
+
+6.
+// const string = prompt("Nhập vào 1 chuỗi bất kỳ");
+// const n = string.length-1;
+// let ketqua;
+// for (let i = 0; i <= n/2; i++){
+//     if (string[i] != string[n - i]){
+//         ketqua = "false";
+//         break;
+//     } else {
+//         ketqua = "true";
+//     }
+// } 
+// alert(ketqua);
+
+7.
+
+// let a = Number(prompt("số cột là: "));
+// let b = Number(prompt("số hàng là: "));
+// let string = "";
+// for (let y = 1; y <= b; y++){
+    
+//     for (let x = 1; x <= a; x ++){
+//         string = string + "* ";
+//     }
+//     string = string + "\n";
+// }
+// alert(string);
+
+8 + 9.
+
+// let a1 = Number(prompt("nhập vào số a1: "));
+// let b1 = Number(prompt("nhập vào số b1: "));
+// let c1 = Number(prompt("nhập vào số c1: "));
+// let a2 = Number(prompt("nhập vào số a2: "));
+// let b2 = Number(prompt("nhập vào số b2: "));
+// let c2 = Number(prompt("nhập vào số c2: "));
+// if (a1*a1 + b1*b1 !== 0 & a2*a2 + b2*b2 !== 0 & a1/a2 !== b1/b2 !== c1/c2   ){
+// let y = - ( (c1 *a2) - (c2 *a1) ) / ( (b1 *a2) - (b2 *a1) );
+// let x = - ( (b1 *y) + c1 )/a1;
+// alert(`2 nghiệm của hệ phương trình là: 
+// ${x}
+// ${y}
+// `);
+// } else if (a1 == a2 == b1 == b2 & c1 !== 0 || c2 !== 0){
+//     alert(` hệ phương trình vô nghiệm`);
+// } else {
+//     alert(` hệ phương trình có vô số nghiệm`);
+// }
